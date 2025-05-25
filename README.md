@@ -22,14 +22,13 @@ Installation
 Follow these steps to set up the project locally:
 
 Clone the Repository:
-git clone https://github.com/your-username/jobseekerpro.git
-
+git clone https://github.com/your-username/jobseekerpro.git <br>
 --> cd jobseekerpro
 
 
 Set Up Maven:
 
-Ensure Maven is installed and configured. Verify by running:
+Ensure Maven is installed and configured. Verify by running:<br>
 --> mvn -version
 
 
@@ -39,27 +38,21 @@ Maven should point to the JDK 20 installation.
 Configure the Database (if applicable):
 
 Set up a MySQL/PostgreSQL database.
-Update the database configuration in src/main/resources/application.properties with your database URL, username, and password.
-
---> spring.datasource.url=jdbc:mysql://localhost:3306/jobseekerpro
---> spring.datasource.username=your-username
---> spring.datasource.password=your-password
+Update the database configuration in src/main/resources/application.properties with your database URL, username, and password.<br>--> spring.datasource.url=jdbc:mysql://localhost:3306/jobseekerpro<br>--> spring.datasource.username=your-username<br>--> spring.datasource.password=your-password
 
 
 
 
 Build the Project:
 
-Run the following command to build the project and download dependencies:
---> mvn clean install
+Run the following command to build the project and download dependencies:<br>--> mvn clean install
 
 
 
 
 Run the Application:
 
-Start the application using:
---> mvn spring-boot:run
+Start the application using:<br>--> mvn spring-boot:run
 
 
 The application will be accessible at http://localhost:8080 (or the port specified in application.properties).
